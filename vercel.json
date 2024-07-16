@@ -1,1 +1,7 @@
-{ "rewrites": [] }
+{
+    "rewrites": [
+      { "source": "/(.*).(js|css|png|jpg|jpeg|gif|svg|ico|pdf)", "destination": "/$1.$2" },
+      { "source": "/(.*)", "destination": "/" }
+    ]
+  }
+  
