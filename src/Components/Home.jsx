@@ -5,14 +5,14 @@ function Home() {
   
 
   const viewResume = () => {
-    const resumePath = "/MY_RESUME.pdf";
+    const resumePath = "/resume.pdf";
     window.open(resumePath, "_blank", "noopener,noreferrer");
   };
 
  
   const downloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/MY_RESUME.pdf";
+    link.href = "/resume.pdf";
     link.download = "abishek_resume.pdf"; // Replace with your desired file name
     document.body.appendChild(link);
     link.click();
