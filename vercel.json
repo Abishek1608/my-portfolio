@@ -1,6 +1,6 @@
 {
     "rewrites": [
-      { "source": "/(.*).(js|css|png|jpg|jpeg|gif|svg|ico|pdf)", "destination": "/$1.$2" },
+      { "source": "/resume.pdf", "destination": "/public/resume.pdf" },
       { "source": "/(.*)", "destination": "/" }
     ]
   }
